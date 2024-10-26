@@ -3,9 +3,29 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #050505;
   --foreground: #171717;
+  --blackPrimary: #0A0A0B;
+  --blackSecondary: #535354;
+  --whiteSecondary: #9A9A9A;
+  --whitePrimary: #F5F5F5;
+  --secondary: #3498DB;
+  --primary: #FF8502;
 }
+
+
+@layer components {
+  .flex-center {
+      @apply flex justify-center items-center
+  }
+  .inside {
+      @apply max-w-[1196px] xl:px-4 md:px-2 sm:px-4 w-full;
+  }
+  .pointer{
+      @apply hover:cursor-pointer
+  }
+}
+
 
 @media (prefers-color-scheme: dark) {
   :root {
