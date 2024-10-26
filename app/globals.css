@@ -3,39 +3,53 @@
 @tailwind utilities;
 
 :root {
-  --background: #050505;
-  --foreground: #171717;
-  --blackPrimary: #0A0A0B;
-  --blackSecondary: #535354;
-  --whiteSecondary: #9A9A9A;
-  --whitePrimary: #F5F5F5;
-  --secondary: #3498DB;
-  --primary: #FF8502;
+    --background: #050505;
+    --foreground: #171717;
+    --blackPrimary: #0A0A0B;
+    --blackSecondary: #535354;
+    --whiteSecondary: #9A9A9A;
+    --whitePrimary: #F5F5F5;
+    --secondary: #3498DB;
+    --primary: #FF8502;
 }
 
 
 @layer components {
-  .flex-center {
-      @apply flex justify-center items-center
-  }
-  .inside {
-      @apply max-w-[1196px] xl:px-4 md:px-2 sm:px-4 w-full;
-  }
-  .pointer{
-      @apply hover:cursor-pointer
-  }
+    .flex-center {
+        @apply flex justify-center items-center
+    }
+
+    .inside {
+        @apply max-w-[1196px] xl:px-4 md:px-2 sm:px-4 w-full;
+    }
+
+    .pointer {
+        @apply hover:cursor-pointer
+    }
+
+    .titleFooter {
+        @apply text-whitePrimary text-xl font-normal mb-6 sm:text-lg
+    }
+
+    .valueFooter {
+        @apply text-whiteSecondary font-normal text-lg sm:text-base
+    }
+}
+
+.boxShadow {
+    box-shadow: 0 -4px 35px 0 #54545424;
 }
 
 
 @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+    :root {
+        --background: #0a0a0a;
+        --foreground: #ededed;
+    }
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+    color: var(--foreground);
+    background: var(--background);
+    font-family: Arial, Helvetica, sans-serif;
 }

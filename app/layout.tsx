@@ -3,7 +3,7 @@ import localFont from "next/font/local";
 import { appConfig } from "@/config/appConfig";
 import Header from "@/components/layout/Header";
 import "./globals.css";
-import Footer from "@/components/common/Footer";
+import Footer from "@/components/common/Footer/Footer";
 
 
 const danaRegular = localFont({
