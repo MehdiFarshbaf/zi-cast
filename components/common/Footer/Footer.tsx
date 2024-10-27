@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <footer className="w-full flex flex-col justify-center items-center bg-background border-t border-blackSecondary boxShadow">
             <div
-                className="inside w-full flex flex-row justify-between gap-6 py-28 border-t border-t-blackSecondary/30 sm:flex-col sm:gap-8">
+                className="inside w-full flex flex-row justify-between gap-6 py-28  sm:flex-col sm:gap-8">
                 <div className="w-[40%] sm:w-full flex flex-col items-start justify-start gap-8">
                     <Logo/>
                     <p className="text-whitePrimary text-xl font-normal">یک توضیح کوتاه در مورد شرکت و خدمات اصلی که

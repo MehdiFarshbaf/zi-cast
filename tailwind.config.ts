@@ -17,6 +17,8 @@ const config: Config = {
         whitePrimary: "var(--whitePrimary)",
         secondary: "var(--secondary)",
         primary: "var(--primary)",
+        oddCard: "var(--oddCard)",
+        evenCard: "var(--evenCard)",
       },
     },
     screens: {

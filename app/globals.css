@@ -11,6 +11,8 @@
     --whitePrimary: #F5F5F5;
     --secondary: #3498DB;
     --primary: #FF8502;
+    --oddCard:#FFDFE0;
+    --evenCard:#EEEEEE;
 }
 
 
@@ -32,7 +34,7 @@
     }
 
     .valueFooter {
-        @apply text-whiteSecondary font-normal text-lg sm:text-base
+        @apply text-whiteSecondary font-normal text-lg sm:text-base hover:text-primary transition-all duration-100
     }
 }
 
