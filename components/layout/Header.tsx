@@ -8,7 +8,7 @@ const Header = () => {
             <div className="inside w-full flex justify-between items-center">
                 <Logo />
                 <nav className="flex flex-row gap-6 sm:hidden">{listHeaderMenu.map(menu => (
-                    <Link key={menu.id} href={menu.path} className="text-whitePrimary hover:text-primary transition-all" >{menu.label}</Link>
+                    <Link  key={menu.id} href={menu.path} className="text-whitePrimary hover:text-primary transition-all" >{menu.label}</Link>
                 ))}</nav>
                 <button className="rounded px-3 py-1 text-blackPrimary bg-whitePrimary border-none outline-none">اجاره استودیو</button>
 

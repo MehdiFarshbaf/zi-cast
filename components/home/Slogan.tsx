@@ -2,7 +2,7 @@ import Logo from "../common/Logo"
 
 const Slogan = () => {
     return (
-        <section className="w-full flex flex-col justify-center items-center mb-[200px] sm:mb-[100px]">
+        <section id="contact-us" className="w-full flex flex-col justify-center items-center mb-[200px] sm:mb-[100px]">
             <div className="inside flex flex-col justify-center items-center">
                 <Logo />
                 <p className="bg-gradient-to-r from-secondary via-whitePrimary to-whiteSecondary font-normal text-transparent bg-clip-text text-[40px] sm:text-2xl mt-8 mb-10 text-center">

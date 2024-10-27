@@ -31,7 +31,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({children,}: Readonly<{  children: React.ReactNode;}>) {
   return (
-    <html lang="fa-IR" dir="rtl">
+    <html className="scroll-smooth" lang="fa-IR" dir="rtl">
       <body className={`${danaRegular.className} antialiased`}>
         <Header/>
         <main>
