@@ -41,7 +41,9 @@
 .boxShadow {
     box-shadow: 0 -4px 35px 0 #54545424;
 }
-
+.shadowReviews{
+    box-shadow: 3px 3px 17px 0px #0078D71F;
+}
 
 @media (prefers-color-scheme: dark) {
     :root {

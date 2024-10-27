@@ -1,4 +1,5 @@
 import Hero from "@/components/home/Hero";
+import Reviews from "@/components/home/Reviews";
 import Services from "@/components/home/Services";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <div className="w-full flex flex-col justify-center items-center">
       <Hero/>
       <Services/>
+      <Reviews/>
     </div>
   );
 }
