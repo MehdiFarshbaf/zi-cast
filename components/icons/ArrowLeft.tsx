@@ -1,4 +1,4 @@
-import { IClassName } from "@/interface/publicInterface"
+import { IClassName } from "@/data/interface/publicInterface"
 import { FC, HTMLProps } from "react"
 
 interface IProps extends IClassName {
